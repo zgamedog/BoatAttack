@@ -86,3 +86,9 @@ And thanks to many more who have helped with suggestions and feedback!
 # Notes
 
 *Make sure you clone the repo as downloading the zip will not contain the GitLFS files(all textures/meshes etc)
+
+
+=======================Perf========================
+<p align="center">
+<img src="https://github.com/zgamedog/BoatAttack/blob/master/120fps_xiaomi12.jpg"/>
+</p>
