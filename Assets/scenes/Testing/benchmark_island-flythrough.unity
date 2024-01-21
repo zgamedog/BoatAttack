@@ -288,6 +288,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 497707808075569993, guid: e70416e3bc35d4004a9981d0ac102ba5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1753825904496165227, guid: e70416e3bc35d4004a9981d0ac102ba5,
         type: 3}
       propertyPath: m_IsActive
@@ -1714,7 +1719,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c17e2d918d2938478b987cbd58e3d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!84 &1632321154
+--- !u!84 &1348020166
 RenderTexture:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
