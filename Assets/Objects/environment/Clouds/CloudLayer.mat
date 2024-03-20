@@ -83,7 +83,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_5938df77fca14c0db6439fcfee84628c: 0
+    - Vector1_5938df77fca14c0db6439fcfee84628c: -0.57
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -95,6 +95,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _EnvironmentReflections: 1
+    - _Float: 0.94
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
