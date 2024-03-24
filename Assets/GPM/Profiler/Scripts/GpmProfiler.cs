@@ -85,7 +85,7 @@
             controller.Initialize();
         }
 
-        private void Update()
+        private void UpdateS()
         {
             if (gestureEnable == true)
             {

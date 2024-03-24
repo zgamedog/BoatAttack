@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 22
+  serializedVersion: 23
   productGUID: b53215438aaf44a9f9817e608bbb159c
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 0
-  companyName: UnityTechnologies
+  companyName: BoatAttack
   productName: BoatAttack
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -153,6 +153,7 @@ PlayerSettings:
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   enableFrameTimingStats: 1
+  enableOpenGLProfilerGPURecorders: 1
   useHDRDisplay: 0
   D3DHDRBitDepth: 0
   m_ColorGamuts: 00000000
@@ -162,7 +163,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.UnityTechnologies.BoatAttack
+    Android: com.BoatAttack.BoatAttack
     Lumin: com.DefaultCompany.BoatAttack
     Standalone: com.UnityTechnologies.BoatAttack
     iPhone: com.Unity3D.BoatAttack
@@ -231,6 +232,7 @@ PlayerSettings:
   iOSLaunchScreeniPadCustomStoryboardPath: 
   iOSDeviceRequirements: []
   iOSURLSchemes: []
+  macOSURLSchemes: []
   iOSBackgroundModes: 0
   iOSMetalForceHardShadows: 0
   metalEditorSupport: 1
@@ -563,7 +565,7 @@ PlayerSettings:
     m_Automatic: 0
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
-    m_Automatic: 0
+    m_Automatic: 1
   - m_BuildTarget: MacStandaloneSupport
     m_APIs: 10000000
     m_Automatic: 0
@@ -601,6 +603,7 @@ PlayerSettings:
     m_TextureStreamingEnabled: 0
     m_TextureStreamingPriority: 0
   m_BuildTargetNormalMapEncoding: []
+  m_BuildTargetDefaultTextureCompressionFormat: []
   playModeTestRunnerEnabled: 1
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -619,6 +622,7 @@ PlayerSettings:
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
   switchUseGOLDLinker: 0
+  switchLTOSetting: 0
   switchApplicationID: 0x01004b9000490000
   switchNSODependencies: 
   switchTitleNames_0: 
@@ -860,34 +864,18 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: URP;USE_CUSTOM_METADATA
-    2: URP;USE_CUSTOM_METADATA
-    3: URP;USE_CUSTOM_METADATA
-    4: URP;USE_CUSTOM_METADATA
-    5: URP;USE_CUSTOM_METADATA
-    6: URP;USE_CUSTOM_METADATA
-    7: URP;USE_CUSTOM_METADATA
-    8: URP;USE_CUSTOM_METADATA
-    9: URP;USE_CUSTOM_METADATA
-    10: URP;USE_CUSTOM_METADATA
-    11: URP;USE_CUSTOM_METADATA
-    12: URP;USE_CUSTOM_METADATA
-    13: URP;USE_CUSTOM_METADATA
-    14: URP;USE_CUSTOM_METADATA
-    15: URP;USE_CUSTOM_METADATA
-    16: URP;USE_CUSTOM_METADATA
-    17: URP;USE_CUSTOM_METADATA
-    18: URP;USE_CUSTOM_METADATA
-    19: URP;USE_CUSTOM_METADATA
-    20: URP;USE_CUSTOM_METADATA
-    21: URP;USE_CUSTOM_METADATA
-    23: URP;USE_CUSTOM_METADATA
-    24: URP;USE_CUSTOM_METADATA
-    25: URP;USE_CUSTOM_METADATA
-    26: URP;USE_CUSTOM_METADATA
-    27: URP;USE_CUSTOM_METADATA
-    28: URP;USE_CUSTOM_METADATA
-    29: URP;USE_CUSTOM_METADATA
+    : URP;USE_CUSTOM_METADATA
+    Android: URP;USE_CUSTOM_METADATA
+    Lumin: URP;USE_CUSTOM_METADATA
+    Nintendo Switch: URP;USE_CUSTOM_METADATA
+    PS4: URP;USE_CUSTOM_METADATA
+    Stadia: URP;USE_CUSTOM_METADATA
+    Standalone: URP;USE_CUSTOM_METADATA
+    WebGL: URP;USE_CUSTOM_METADATA
+    Windows Store Apps: URP;USE_CUSTOM_METADATA
+    XboxOne: URP;USE_CUSTOM_METADATA
+    iPhone: URP;USE_CUSTOM_METADATA
+    tvOS: URP;USE_CUSTOM_METADATA
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
@@ -902,7 +890,6 @@ PlayerSettings:
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
-  useReferenceAssemblies: 1
   enableRoslynAnalyzers: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
@@ -996,4 +983,6 @@ PlayerSettings:
   organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
+  playerDataPath: 
+  forceSRGBBlit: 1
   virtualTexturingSupportEnabled: 0
